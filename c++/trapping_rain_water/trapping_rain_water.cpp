@@ -33,7 +33,6 @@ int main()
 { 
 	int arr[] = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}; 
 	int n = sizeof(arr)/sizeof(arr[0]); 
-    findWater(arr, n);
-	//cout << "Maximum water that can be accumulated is "<< findWater(arr, n); 
+	cout << "Maximum water that can be accumulated is "<< findWater(arr, n); 
 	return 0; 
 }	 
